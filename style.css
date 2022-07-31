@@ -340,6 +340,7 @@ z-index: 10;
        padding-left: 20px;
        padding-top: 20px;
        height: 1128px;
+       width: 600px;
     }
     .child1{
         margin-bottom: 50px;
