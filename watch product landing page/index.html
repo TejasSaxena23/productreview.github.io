@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCT LANDING PAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <section>
+        <div class="wave"></div>
+        <header>
+            <a href="#"><img src="photos/output-onlinepngtools.png" class="iou" alt=""></a>
+            <div class="toggle" onclick="activetoggle();" ></div>
+            <ul class="gjh">
+                <li><a href="#" class="pl">Home</a></li>
+                <li><a href="#" class="pl1">Latest Gadgets</a></li>
+                <li><a href="#" class="pl2">Contact Us</a></li>
+            </ul>
+        </header>
+        <div class="container">
+            <div class="child1">
+                <h1>GADGETERIA!</h1>
+                <p>Find cool exciting and latest gadgets here at very low prize.</p>
+                <span>So what are you waiting for!</span><i class="fa-solid fa-truck-arrow-right icon"></i><button
+                    type="button" class="btn btn-outline-danger">Order Here!</button>
+            </div>
+            <div class="imgcontent">
+                <div style="width:100px">
+                    <div class="tag-triangle"></div>
+
+                    <div class="tag-rectangle">ONLY Rs:2999/</div>
+                </div>
+                <img class="loi" src="photos/img1.png" alt="">
+            </div>
+        </div>
+        <ul class="models">
+            <li><img onclick="imgchange('photos/img1.png')" src="photos/img1.png" alt=""></li>
+            <li><img onclick="imgchange ('photos/img2.png')" src="photos/img2.png" alt=""></li>
+            <li><img onclick="imgchange ('photos/img3.png')" src="photos/img3.png" alt=""></li>
+        </ul>
+        <ul class="tui">
+            <li><a href="#"><img src="photos/instagram icon.png" alt=""></a></li>
+            <li><a href="#"><img src="photos/youtube 1.png" alt=""></a></li>
+            <li><a href="#"><img src="photos/twitter1.png" alt=""></a></li>
+        </ul>
+        <ul class="icons">
+            <li><img src="photos/kisspng-telephone-call-symbol-smartphone-ringing-phone-5acb8cf9635065.2071133315232893374068.png" alt=""><br><span>Calling Feature!</span></li>
+            <li><img src="photos/kisspng-database-server-computer-icons-clip-art-sql-server-save-icon-format-5ab0cc85b194f4.6802867215215361337274.png" alt=""><br><span>8GB Storage!</span></li>
+            <li><img src="photos/battery-icon-34289.png" alt=""><br><span>3000 mah battery!</span></li>
+            <li><img src="photos/kisspng-app-store-iphone-apple-app-store-icon-transparent-5b5e1adcd3cd65.6513492315328939168676.png" alt=""><br><span>App Store!</span></li>
+        </ul>
+    </section>
+    <script>
+        function imgchange(mk) {
+            document.querySelector('.loi').src = mk;
+        }
+        function activetoggle(){
+            var menu = document.querySelector('.toggle')
+            var menu2 = document.querySelector('.gjh')
+            menu.classList.toggle('active')
+            menu2.classList.toggle('active')
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/9a7312d595.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
