@@ -86,7 +86,7 @@ header ul li a {
 }
 
 .container .child1 h1 {
-    color: rgba(100, 9, 247, 0.438);
+    color: crimson;
     font-size: 3em;
     margin-bottom: 140px;
     line-height: -2em;
@@ -105,7 +105,7 @@ header ul li a {
     80%,
     90.1%,
     92% {
-        color: rgba(100, 9, 247, 0.438);
+        color: crimson;
         text-shadow: none;
     }
 
@@ -344,6 +344,7 @@ z-index: 10;
     }
     .child1{
         margin-bottom: 50px;
+        margin-left: 40px;
     }
     .container .child1 p {
         line-height: 2em;
@@ -356,6 +357,7 @@ z-index: 10;
         justify-content: center;
         padding-right: 190px;
         margin-top: -30px;
+        margin-left: 40px;
     }
     .container .imgcontent .loi {
         max-width: 340px;
@@ -387,7 +389,7 @@ z-index: 10;
     }
     .models {
         left: 40%;
-        margin-left: 0px;
+        margin-left: 20px;
     }
 }
 @media  (max-width:991px) and (min-width:600px){
