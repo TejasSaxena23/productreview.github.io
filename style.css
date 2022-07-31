@@ -302,6 +302,7 @@ header ul li a {
         padding: 40px;
     }
     .toggle{
+        margin-right: 70px ;
         width: 30px;
         height: 30px;
         position: relative;
@@ -338,6 +339,7 @@ z-index: 10;
     section{
        padding-left: 20px;
        padding-top: 20px;
+       height: 1128px;
     }
     .child1{
         margin-bottom: 50px;
